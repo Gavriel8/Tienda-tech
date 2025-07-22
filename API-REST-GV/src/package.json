@@ -1,0 +1,19 @@
+{
+  "name": "tienda-tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "populate": "node populateFirestore.js"  
+  },
+  "keywords": [],
+  "author": "GV",
+  "license": "ISC",
+  "description": "Api Rest para la administracion de la Tienda-Tech",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
